@@ -1,10 +1,11 @@
 import requests
 
 url = "https://notify-api.line.me/api/notify"
-access_token = '*****' # input your token
+access_token = 'EGh4JhvwgLMF8VbVljSUWXWGcvVmPu9btFZfUvcLYtd'
 headers = {'Authorization': 'Bearer ' + access_token}
 
-message = 'Hello LINE! This is a test for post auto-detect system.'
+message = 'You\'ve got Postal matter!'
+print(message)
 payload = {'message': message}
 
 def notify():
