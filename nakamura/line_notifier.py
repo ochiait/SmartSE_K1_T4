@@ -1,7 +1,7 @@
 import requests
 
 url = "https://notify-api.line.me/api/notify"
-access_token = 'EGh4JhvwgLMF8VbVljSUWXWGcvVmPu9btFZfUvcLYtd'
+access_token = '***************'
 headers = {'Authorization': 'Bearer ' + access_token}
 
 message = 'You\'ve got Postal matter!'
